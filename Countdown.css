@@ -1,0 +1,45 @@
+body{
+    background-color: #70a1ff;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    outline: 0;
+}
+
+p{
+    display: block;
+    font-size: 28px;
+    margin: 28px;
+}
+
+button{
+    display: inline;
+    margin: 20px auto;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+button.Pause{
+    background-color: #ff6b81;
+}
+
+button.Start{
+    background-color: #ffa502;
+}
+
+button.Reset{
+    background-color: #7bed9f;
+}
+
+button:disabled{
+    background-color: gray;
+    transition-duration: 500ms;
+}
